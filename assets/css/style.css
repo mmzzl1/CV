@@ -3,21 +3,59 @@
 	padding: 0;
 }
 
+h1 {
+    text-align: center;
+    border-bottom: 4px solid red;
+    width: 13%;
+    margin: auto;
+    color: snow;
+}
+
 .Menu {width: 1000px;
-		margin: auto;}
+		margin: auto;
+		height: 100px;
+	}
+
+.Menu button:hover {
+    background: #4ca521;
+    transform: scale(1.02);
+}
 
 .Menu button {
-	margin: 10px;
+	margin: 2px;
 	text-transform: uppercase;
-	border: none;border-radius: 20px;
+	border: none;
+	border-radius: 20px;
 	outline: none;
-	color: #Fff;
-	background: #67a967;
-	width: 18%;
-	height: 61px;
+	color: #f7f7f1;
+	background: #1e381e;
+	width: 14%;
+	height: 50px;
 	float: left;
 	font-weight: bold;
+	cursor: pointer;
+}
+.avata img{
+	float:left;
+	border-radius: 45px;
+	width: 20%;
+	height: auto;
+	transition: 1s;
+	margin-top: 25px;
+}
+.aboutme{
+	clear: both;
+}
+.avata img:hover {
+    transform: scale(1.1);
 }
 body{
-	background-color: #0B0812;
+	color: #fff;
+	height: auto;
+	background-image: url("../images/bg.jpg");
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+ 
 }
