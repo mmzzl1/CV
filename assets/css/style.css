@@ -3,6 +3,31 @@
 	padding: 0;
 }
 
+.dsinfo li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.titleam {
+    margin-bottom: 30px;
+}
+
+.titleam h2 {
+    color: #ecc142;
+}
+
+.titleam span {
+    margin-left: 67px;
+    color: #c3c3c3;
+}
+
+.contentam {
+    color: #fff;
+    padding: 50px;
+    font-size: 32px;
+    float: left;
+}
+
 h1 {
     text-align: center;
     border-bottom: 4px solid red;
@@ -50,7 +75,7 @@ h1 {
     transform: scale(1.1);
 }
 body{
-	color: #fff;
+	/* color: #fff; */
 	height: auto;
 	background-image: url("../images/bg.jpg");
 	margin: 10px;
