@@ -23,7 +23,7 @@
 	text-align: center;
 }
 h5.slogan {
-    width: 40%;
+    width: 40%;Ä‘Ã¢sdsadsadas
     font-size: 116%;
     color: darkgrey;
     display: inline-block;
@@ -42,12 +42,16 @@ h5.slogan {
 }
 
 .frames-avata {
-    height: 638px;
+    height: auto;
     width: 27%;
     background-color: #00000091;
     margin-left: 2%;
     margin-top: 60px;
     box-shadow: -9px -5px 12px #A4A4A4;
+}
+
+.frames-avata {
+    float: left;
 }
 body{
 	background-image: url(../images/bg1.jpg);
