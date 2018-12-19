@@ -59,7 +59,7 @@ body{
 	margin: 10px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: scroll;
+	overflow: auto;
 	background-repeat: no-repeat;
 }
 .aboutme h1 {
