@@ -1,46 +1,196 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>This is my CV</title>
-        <meta charset="UTF-8">
-       <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="Menu">
-            <a href="index.html"><button id="About_me" type="button"> About Me123</button></a>
-            <a href="education.html"> <button id="Education">Education</button></a>
-            <a href="#"><button id="Skill">My Skill</button></a>
-            <a href="#"><button id="Project">My Project</button></a>
-            <a href="#"><button id="Experience">Experience</button></a>
-            <a href="#"><button id="Contact">Contact</button></a>
+<head>
+    <title>This is my CV</title>
+    <meta charset="UTF-8">
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</head>
+<body>
+    <!-- <div class="preloader">
+        <div class="centrize full-width">
+        <div class="vertical-center">
+        <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
         </div>
-        <!-- aboutme -->
-        <div class="aboutme">
-            <h1><span><i class="fas fa-address-card" id = 'child'></i> About Me</span></h1>
         </div>
-        <!-- noidungcard -->
-        <div class="frames-avata">
-            <div class="avata"><img src="assets/images/avata.jpg" alt="avata"></div>
-                <h1>TRUONG TU HUY</h1>
+        </div>
+    </div> -->
+    <div class="Menu">
+        <div class="menu-inner">
+            <a href="#aboutme">About Me</a>
+            <a href="#myskill">My Skill</a>
+            <a href="#education">Education</a>
+<!--             <a href="#myproject">My Project</a>
+<a href="#experience">Experience</a> -->
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <!-- aboutme -->
+    <div id="aboutme" class="aboutme title">
+        <h2><span><i class="fas fa-address-card" id = 'child'></i> About Me</span></h2>
+    </div>
+
+    <!-- noidungcard -->
+    <div class="fullab">
+        <div class="frames-avatar">
+            <div class="avatar"><img src="assets/images/avata.jpg" alt="avatar"></div>
+            <h1>TRUONG TU HUY</h1>
             <div class="about_me">
-            
                 <h5 class="slogan">Web Designer &amp; Software Developer</h5>
             </div>
             <div class="contentam">
-                <span>Hi, I'm Huy. I come from Binh Dinh Province. I am very cheerful and hardworking. I can work with a lot of different programming languages like Html, Css, Js, Java. I hope I can work at your Company. I will try my best to complete all works of me.</span>
+                <p>Day of birth: <span>19/05/1996</span></p>
+                <p>Address: <span>An Nhon - Binh Dinh</span></p>
+                <p>Email: <span>truongtuhuy2@gmail.com</span></p>
+                <p>Phone: <span>0388284925</span></p>
+            </div>
+            <div class="iconsoci">
+                <a href="https://www.facebook.com/huy.truongtu.9"><img src="assets/images/facebook (1).png"></a>
+                <a href="#"><img src="assets/images/gmail (1).png"></a>
+                <a href="#"><img src="assets/images/google-plus (1).png"></a>
+                <a href="#"><img src="assets/images/twitter (1).png"></a>
+                <a href="#"><img src="assets/images/skype.png"></a>
             </div>
         </div>
         <!-- end noidung card -->
+
         <!-- info -->
-        <div class="info">
-            <p><img src="assets/images/boy.png" alt="icon">Full Name: TRUONG TU HUY</p>
-            <p>Date Of Birth: 19/05/1996</p>
-            <p>Address: An Nhon - Binh Dinh</p>
-            <p>Email: Truongtuhuy2@gmail.com</p>
-            <p>Phone: +843882849XX</p>
+        <div class="info-inner">
+            <div class="contentabm">
+                <span>Hello, I am <b>Huy</b>. I come from Binh Dinh Provine in Viet Nam. I can ues many different language programing like HTML, CSS, Java, ... I am very like your company and I hope to work at your company. </span>
+            </div>
+            <div class="myhobbie">
+                <h2 id="">MY HOBBY</h2>
+                <div class="myhobbie-1">
+                    <img src="assets/images/code.png">
+                    <p>I enjoyed the code. I can forget to eat and sleep because it</p>
+                </div>
+                <div class="myhobbie-1">
+                    <img src="assets/images/music-player (1).png">
+                    <p>I enjoyed the code. I can forget to eat and sleep because it</p>
+                </div>
+                <div class="myhobbie-1">
+                    <img src="assets/images/cart (2).png">
+                    <p>I enjoyed the code. I can forget to eat and sleep because it</p>
+                </div>
+                <div class="myhobbie-1">
+                    <img src="assets/images/search.png">
+                    <p>I enjoyed the code. I can forget to eat and sleep because it</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- endinfo -->
+    <!-- education -->
+    
+    <div id="myskill" class="skill title">
+        <h2><span><i class="fas fa-address-card" id = 'child'></i> MY SKILL</span></h2>
+    </div>
+    <div class="fullskill">
+    <div class="skillbody">
+    <!-- noidungskill -->
+        <p id ="html">HTML</p>
+        <div class="container">
+            <div class="skills html">80%</div>
         </div>
 
-    </body>
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">40%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">70%</div>
+        </div>
+
+        <p>Java</p>
+        <div class="container">
+            <div class="skills php">70%</div>
+        </div>
+        </div>
+    </div>
+    <!-- endskill -->
+    <div id="education" class="edu title">
+        <h2><span><i class="fas fa-address-card" id = 'child'></i> EDUCATION</span></h2>
+    </div>
+    <div class="contented">
+        <div class="time1">
+            <h3>2014-2017</h3>
+            <div class="ndtime1">
+                <h3>University of industry</h3>
+                <p class="tientrinh">Finish University</p>
+                <p class="khoangtime">Aug 2014 - NOV 20017</p>
+                <p>I completed my University school degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+            </div>
+        </div><!-- endtime1 --> 
+
+        <div class="time1">
+            <h3>2017-2018</h3>
+            <div class="ndtime1">
+                <h3>University of industry</h3>
+                <p class="tientrinh">Finish University</p>
+                <p class="khoangtime">Aug 2014 - NOV 20017</p>
+                <p>I completed my University school degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+            </div>
+        </div><!-- endtime2 --> 
+        <div class="time1">
+            <h3>2018- Now</h3>
+            <div class="ndtime1">
+                <h3>University of industry</h3>
+                <p class="tientrinh">Finish University</p>
+                <p class="khoangtime">Aug 2014 - NOV 20017</p>
+                <p>I completed my University school degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+            </div>
+        </div><!-- endtime3 -->  
+    </div>
+  <!--   <div class="cc-education">
+      <div class="card">
+          <div class="row">
+              <div class="col-md-3 bg-primary aos-init aos-animate">
+                  <div class="card-body cc-education-header">
+                      <p>2013 - 2015</p>
+                      <div class="h5">Master's Degree</div>
+                  </div>
+              </div>
+              <div class="col-md-9 aos-init aos-animate" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                      <div class="h5">Master of Information Technology</div>
+                      <p class="category">University of Computer Science</p>
+                      <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div> -->
+    <div id="contact" class="ct title">
+        <h2><span><i class="fas fa-address-card" id = 'child'></i> CONTACT</span></h2>
+    </div>
+<div class="container1">
+    <h1>CONTACT ME</h1>
+    <form action="/action_page.php">
+        <label for="fname">Họ Và Tên</label>
+        <input type="text" id="name" name="name" placeholder="Full name...">
+ 
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email...">
+ 
+        <label for="country">Số Điện Thoại</label>
+        <input type="text" id="phone" name="phone" placeholder="Your Telephone Number...">
+ 
+        <label for="address">Địa Chỉ</label>
+        <input type="text" id="address" name="address" placeholder="Your Address...">
+ 
+        <input type="submit">
+    </form>
+</div>
+</body>
 </html>
