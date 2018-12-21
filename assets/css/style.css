@@ -5,7 +5,7 @@
 *, ::after, ::before {
     box-sizing: inherit;
 }
-
+/** loading trang**/
 .skillbody {
     width: 1024px;
     margin: 0 auto;
